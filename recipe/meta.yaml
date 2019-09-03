@@ -1,4 +1,4 @@
-{% set version = '0.9.1' %}
+{% set version = "0.10.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggalluvial_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggalluvial/ggalluvial_{{ version }}.tar.gz
-  sha256: ee9b6dd588658e786dcc3cc5b72a28115e46f4f6ae101e7cba03a7df216fe45a
+  sha256: 60ec41d05e8d61356de03da66e3f979c34cc9a7b3b41a87c03b1a6824a2c8314
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1001
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
