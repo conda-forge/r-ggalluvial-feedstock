@@ -1,4 +1,4 @@
-{% set version = "0.10.0" %}
+{% set version = "0.11.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggalluvial_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggalluvial/ggalluvial_{{ version }}.tar.gz
-  sha256: 60ec41d05e8d61356de03da66e3f979c34cc9a7b3b41a87c03b1a6824a2c8314
+  sha256: a10278ac3dd0828406ec967573d8a3bfbb9e5829212f8fb854a9dc9a134f8515
 
 build:
   noarch: generic
@@ -61,10 +61,4 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
     - philip-khor
