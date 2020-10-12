@@ -1,4 +1,4 @@
-{% set version = "0.11.1" %}
+{% set version = "0.12.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,13 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggalluvial_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggalluvial/ggalluvial_{{ version }}.tar.gz
-  sha256: a10278ac3dd0828406ec967573d8a3bfbb9e5829212f8fb854a9dc9a134f8515
+  sha256: a123d9605bee7fc9149a0b3ec588e0d167f77a0e49046b88c0da7e01cd5a97e1
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  noarch: generic
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -57,6 +56,7 @@ about:
     layers to produce alluvial diagrams from tidy data.
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  dev_url: https://github.com/corybrunson/ggalluvial/
 
 extra:
   recipe-maintainers:
