@@ -52,9 +52,9 @@ about:
   summary: Alluvial diagrams use x-splines, sometimes augmented with stacked histograms, to visualize
     multi-dimensional or repeated-measures data with categorical or ordinal variables.
     They can be viewed as simplified and standardized Sankey diagrams; see Riehmann,
-    Hanfler, and Froehlich (2005) <doi:10.1109/INFVIS.2005.1532152> and Rosvall and
-    Bergstrom (2010) <doi:10.1371/journal.pone.0008694>. This package provides ggplot2
-    layers to produce alluvial diagrams from tidy data.
+    Hanfler, and Froehlich (2005) [doi:10.1109/INFVIS.2005.1532152](https://doi.org/10.1109/INFVIS.2005.1532152)
+    and Rosvall and Bergstrom (2010) [doi:10.1371/journal.pone.0008694](https://doi.org/10.1371/journal.pone.0008694).
+    This package provides ggplot2 layers to produce alluvial diagrams from tidy data.
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   dev_url: https://github.com/corybrunson/ggalluvial/
