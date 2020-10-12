@@ -46,7 +46,8 @@ test:
     - "\"%R%\" -e \"library('ggalluvial')\""  # [win]
 
 about:
-  home: http://corybrunson.github.io/ggalluvial/
+  home: https://cloud.r-project.org/package=ggalluvial
+  doc_url: https://corybrunson.github.io/ggalluvial/
   license: GPL-3.0-only
   summary: Alluvial diagrams use x-splines, sometimes augmented with stacked histograms, to visualize
     multi-dimensional or repeated-measures data with categorical or ordinal variables.
