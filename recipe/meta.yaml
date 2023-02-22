@@ -1,4 +1,4 @@
-{% set version = "0.12.4" %}
+{% set version = "0.12.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggalluvial_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggalluvial/ggalluvial_{{ version }}.tar.gz
-  sha256: e3ffc55fa2e78d3c4ffd528ef48ad471b3b30a154a8c56d3239465a91f975674
+  sha256: 90044c880e70096137a733d601b11e558fe55e4e7d3aaacac6f08d7847415d71
 
 build:
   noarch: generic
