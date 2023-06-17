@@ -1,11 +1,11 @@
-About r-ggalluvial
-==================
+About r-ggalluvial-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggalluvial-feedstock/blob/main/LICENSE.txt)
 
 Home: https://cloud.r-project.org/package=ggalluvial
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggalluvial-feedstock/blob/main/LICENSE.txt)
 
 Summary: Alluvial diagrams use x-splines, sometimes augmented with stacked histograms, to visualize multi-dimensional or repeated-measures data with categorical or ordinal variables. They can be viewed as simplified and standardized Sankey diagrams; see Riehmann, Hanfler, and Froehlich (2005) [doi:10.1109/INFVIS.2005.1532152](https://doi.org/10.1109/INFVIS.2005.1532152) and Rosvall and Bergstrom (2010) [doi:10.1371/journal.pone.0008694](https://doi.org/10.1371/journal.pone.0008694). This package provides ggplot2 layers to produce alluvial diagrams from tidy data.
 
